@@ -1,5 +1,5 @@
-from typing import Dict
 from inspect import isclass, isfunction, ismethod, ismodule
+from typing import Dict
 
 
 def _get_repr(x):
