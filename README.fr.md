@@ -151,6 +151,14 @@ store = metadata.Store()
 store.log_metadata(hparams)
 ```
 
+#### Encore plus concis
+Si vous êtes amateur de la sorcellerie de python, vous pouvez même import autohparams et l'utiliser comme une fonction:
+```python
+import autohparams
+config = autohparams(globals())
+```
+On ne peut pas faire plus simple !
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
