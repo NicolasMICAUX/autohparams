@@ -9,9 +9,9 @@ Returns:
 from sys import modules
 from types import ModuleType
 
-from .auto_config import get_auto_config
+from .auto_hparams import get_auto_hparams
 
-__all__ = ["get_auto_config"]
+__all__ = ["get_auto_hparams"]
 
 
 class CallableModule(ModuleType):
@@ -22,7 +22,7 @@ class CallableModule(ModuleType):
         self.__dict__.update(modules[__name__].__dict__)
 
     def __call__(self, *args, **kwargs):
-        get_auto_config(*args, **kwargs)
+        get_auto_hparams(*args, **kwargs)
 
     mod_call = __call__
     __all__ = list(set(vars().keys()) - {"__qualname__"})

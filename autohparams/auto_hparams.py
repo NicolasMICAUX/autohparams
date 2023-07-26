@@ -12,7 +12,7 @@ def _get_repr(x):
         return _repr
 
 
-def get_auto_config(var_dict: Dict) -> Dict:
+def get_auto_hparams(var_dict: Dict) -> Dict:
     """Returns a default config dictionnary from available variables at run time.
 
     Args:

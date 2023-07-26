@@ -1,5 +1,5 @@
-# Contributing to AutoConfig project
-A big welcome and thank you for considering contributing to AutoConfig project! It’s people like you that make it a reality for users in our community.
+# Contributing to AutoHparams project
+A big welcome and thank you for considering contributing to AutoHparams project! It’s people like you that make it a reality for users in our community.
 Reading and following these guidelines will help us make the contribution process easy and effective for everyone involved. It also communicates that you agree to respect the time of the developers managing and developing these open source projects. In return, we will reciprocate that respect by addressing your issue, assessing changes, and helping you finalize your pull requests.
 
 ## Quicklinks
@@ -62,7 +62,7 @@ All contributions are welcome, be they documentation, code, fixing typos, tests,
 If you want to make a contribution but doesn't know how to help with the code, or just want to start with non-code contribution, here are some ideas:
 - Evangelize: speak about the project around you, on Twitter, Dev.to, Aviyel, Medium etc. ;
 - Find bugs and open issues, with good description of the bug (or improve other issues!) ;
-- Participate to the [Discussions](https://github.com/NicolasMICAUX/autoconfig/discussions) ;
+- Participate to the [Discussions](https://github.com/NicolasMICAUX/AutoHparams/discussions) ;
 - Propose some test cases ;
 - Find adversarial examples that make the lib fail to find the correct result ;
 - Add documentation ;
