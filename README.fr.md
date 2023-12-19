@@ -18,7 +18,7 @@
   <h3 align="center">AutoHparams</h3>
 
   <p align="center">
-    Créez automatiquement une hparamsuration d'hyper-paramètres à partir de variables globales!
+    Créez automatiquement une configuration d'hyper-paramètres à partir de variables globales!
     <br />
 <!--
     <a href="https://github.com/NicolasMICAUX/autohparams"><strong>Explorer la doc »</strong></a>
